@@ -1,37 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Order summary card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Order Summary
-
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Order summary card</title>
+    <link rel="stylesheet" href="/style.css" />
+    <meta name="author" content="Dionysia Lemonaki" />
+    <meta
+      name="description"
+      content="Check out Dionysia Lemonaki's solution of the Order Summary Component challenge from frontendmentor.io"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://order-summary-component-dionysialemonaki.vercel.app/"
+    />
+    <meta property="og:title" content="Frontend Mentor | Order summary card" />
+    <meta
+      property="og:description"
+      content="Check out Dionysia Lemonaki's solution of the Order Summary Component challenge from frontendmentor.io"
+    />
+    <meta
+      property="og:image"
+      content="https://order-summary-component-dionysialemonaki.vercel.app/og-img.jpeg"
+    />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://order-summary-component-dionysialemonaki.vercel.app/"
+    />
+    <meta
+      property="twitter:title"
+      content="Frontend Mentor | Order summary card"
+    />
+    <meta
+      property="twitter:description"
+      content="Check out Dionysia Lemonaki's solution of the Order Summary Component challenge from frontendmentor.io"
+    />
+    <meta
+      property="twitter:image"
+      content="https://order-summary-component-dionysialemonaki.vercel.app/og-img.jpeg"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/images/favicon-96x96.png"
+      sizes="96x96"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <img
+          src="/images/illustration-hero.svg"
+          alt="Illustration of a woman smiling and dancing with headphones on, holding a phone in one hand."
+          width="450"
+          height="220"
+          class="card__image"
+        />
+        <div class="card__content">
+          <h1 class="card__title">Order Summary</h1>
+          <p class="card__description">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+          <div class="plan">
+            <img
+              src="/images/icon-music.svg"
+              alt=""
+              width="48"
+              height="48"
+              class="plan__icon"
+            />
+            <div class="plan__details">
+              <h2 class="plan__title">Annual Plan</h2>
+              <p class="plan__price">$59.99/year</p>
+            </div>
+            <button type="button" class="btn btn--link">Change</button>
+          </div>
+          <a href="#" class="btn btn--primary">Proceed to Payment</a>
+          <button type="button" class="btn btn--link btn--secondary">
+            Cancel Order
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
