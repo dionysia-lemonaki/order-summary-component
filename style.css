@@ -78,3 +78,21 @@ img {
   display: block;
   max-width: 100%;
 }
+
+body {
+  background-color: var(--clr-bg-body);
+  background-image: url("/images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--clr-text-primary);
+  font-family: var(--ff-sans);
+  font-size: var(--fs-fluid-sm);
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-relaxed);
+}
+
+@media (min-width: 37.5rem) {
+  body {
+    background-image: url("/images/pattern-background-desktop.svg");
+  }
+}
