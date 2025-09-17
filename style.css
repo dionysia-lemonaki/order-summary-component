@@ -54,3 +54,10 @@
   --shadow-accent: 0 4px 4px hsl(0 0% 0% / 0.25);
   --shadow-btn: 0 20px 20px hsl(245 75% 52% / 0.1903);
 }
+
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("/fonts/RedHatDisplay-VariableFont.woff2") format("woff2");
+  font-weight: 300 900;
+  font-display: swap;
+}
