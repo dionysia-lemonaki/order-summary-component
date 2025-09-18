@@ -109,8 +109,18 @@ body {
   width: 100%;
 }
 
+.card__content {
+  background-color: var(--clr-bg-card);
+  padding: var(--space-400);
+  text-align: center;
+}
+
 @media (min-width: 37.5rem) {
   body {
     background-image: url("/images/pattern-background-desktop.svg");
+  }
+
+  .card__content {
+    padding: var(--space-600);
   }
 }
