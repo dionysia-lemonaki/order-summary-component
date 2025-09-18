@@ -104,6 +104,11 @@ body {
   box-shadow: var(--shadow-card);
 }
 
+.card__image {
+  height: auto;
+  width: 100%;
+}
+
 @media (min-width: 37.5rem) {
   body {
     background-image: url("/images/pattern-background-desktop.svg");
