@@ -115,6 +115,12 @@ body {
   text-align: center;
 }
 
+.card__title {
+  font-size: var(--fs-fluid-lg);
+  font-weight: var(--fw-black);
+  line-height: var(--lh-tight);
+}
+
 @media (min-width: 37.5rem) {
   body {
     background-image: url("/images/pattern-background-desktop.svg");
