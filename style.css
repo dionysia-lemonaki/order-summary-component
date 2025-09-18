@@ -121,6 +121,11 @@ body {
   line-height: var(--lh-tight);
 }
 
+.card__description {
+  margin-block-start: var(--space-200);
+  color: var(--clr-text-secondary);
+}
+
 @media (min-width: 37.5rem) {
   body {
     background-image: url("/images/pattern-background-desktop.svg");
