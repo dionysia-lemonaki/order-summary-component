@@ -147,23 +147,48 @@ body {
 }
 
 .btn {
+  display: block;
   cursor: pointer;
+  text-decoration: none;
+  border-color: transparent;
+  background-color: inherit;
 }
 
 .plan .btn--link {
   color: var(--clr-link-primary);
   font-weight: var(--fw-bold);
-  border-color: transparent;
-  background-color: inherit;
+  text-decoration: underline;
 }
 
 .plan .btn--link:hover {
   color: var(--clr-link-hover-primary);
+  text-decoration: none;
 }
 
 .plan .btn--link:focus-visible {
   color: var(--clr-link-hover-primary);
+  text-decoration: none;
   outline: 2px dotted var(--clr-link-hover-primary);
+  outline-offset: 2px;
+}
+
+.btn--primary {
+  margin-block-start: var(--space-300);
+  background-color: var(--clr-btn-bg);
+  color: var(--clr-btn-text);
+  font-weight: var(--fw-black);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-btn);
+  padding-block: 12px;
+}
+
+.btn--primary:hover {
+  background-color: var(--clr-btn-bg-hover);
+}
+
+.btn--primary:focus-visible {
+  background-color: var(--clr-btn-bg-hover);
+  outline: 2px dotted var(--clr-btn-bg-hover);
   outline-offset: 2px;
 }
 
@@ -185,5 +210,9 @@ body {
   .plan {
     padding: var(--space-300);
     margin-block-start: var(--space-200);
+  }
+
+  .btn--primary {
+    margin-block-start: var(--space-400);
   }
 }
