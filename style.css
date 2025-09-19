@@ -2,7 +2,8 @@
   /* colours */
   --white: hsl(0 100% 100%);
   --black: hsl(0 0% 0%);
-  --gray-600: hsl(224 23% 55%);
+  --gray-600: hsl(224 19% 50%);
+  --gray-700: hsl(224 19% 48%);
   --purple-500: hsl(245 83% 68%);
   --blue-50: hsl(225 100% 98%);
   --blue-100: hsl(225 100% 94%);
@@ -16,6 +17,7 @@
   --clr-bg-accent: var(--blue-50);
   --clr-text-primary: var(--blue-950);
   --clr-text-secondary: var(--gray-600);
+  --clr-text-tertiary: var(--gray-700);
   --clr-link-primary: var(--blue-700);
   --clr-link-secondary: var(--gray-600);
   --clr-link-hover-primary: var(--purple-500);
@@ -143,7 +145,7 @@ body {
 }
 
 .plan__price {
-  color: var(--clr-text-secondary);
+  color: var(--clr-text-tertiary);
 }
 
 .btn {
