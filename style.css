@@ -192,6 +192,23 @@ body {
   outline-offset: 2px;
 }
 
+.btn--secondary {
+  margin-block-start: var(--space-300);
+  color: var(--clr-link-secondary);
+  font-weight: var(--fw-black);
+  margin-inline: auto;
+}
+
+.btn--secondary:hover {
+  color: var(--clr-link-hover-secondary);
+}
+
+.btn--secondary:focus-visible {
+  color: var(--clr-link-hover-secondary);
+  outline: 2px dotted var(--clr-link-hover-secondary);
+  outline-offset: 2px;
+}
+
 @media (min-width: 25rem) {
   .plan .btn--link {
     margin-inline-start: auto;
@@ -213,6 +230,10 @@ body {
   }
 
   .btn--primary {
+    margin-block-start: var(--space-400);
+  }
+
+  .btn--secondary {
     margin-block-start: var(--space-400);
   }
 }
