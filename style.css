@@ -153,13 +153,13 @@ body {
   cursor: pointer;
   text-decoration: none;
   border-color: transparent;
-  background-color: inherit;
 }
 
 .plan .btn--link {
   color: var(--clr-link-primary);
   font-weight: var(--fw-bold);
   text-decoration: underline;
+  background-color: var(--clr-bg-accent);
 }
 
 .plan .btn--link:hover {
@@ -196,6 +196,7 @@ body {
 
 .btn--secondary {
   margin-block-start: var(--space-300);
+  background-color: var(--clr-bg-card);
   color: var(--clr-link-secondary);
   font-weight: var(--fw-black);
   margin-inline: auto;
