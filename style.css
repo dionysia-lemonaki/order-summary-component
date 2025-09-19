@@ -126,6 +126,30 @@ body {
   color: var(--clr-text-secondary);
 }
 
+.plan {
+  background-color: var(--clr-bg-accent);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-accent);
+  padding: var(--space-200);
+  margin-block-start: var(--space-300);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-200);
+}
+
+.plan__title {
+  font-weight: var(--fw-black);
+}
+
+.plan__price {
+  color: var(--clr-text-secondary);
+}
+
+.plan .btn--link {
+  margin-inline-start: auto;
+}
+
 @media (min-width: 37.5rem) {
   body {
     background-image: url("/images/pattern-background-desktop.svg");
@@ -133,5 +157,10 @@ body {
 
   .card__content {
     padding: var(--space-600);
+  }
+
+  .plan {
+    padding: var(--space-300);
+    margin-block-start: var(--space-200);
   }
 }
