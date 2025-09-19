@@ -52,7 +52,7 @@
   /* box shadow */
   --shadow-card: 0 40px 40px -20px hsl(228 87% 39% / 0.1518);
   --shadow-accent: 0 4px 4px hsl(0 0% 0% / 0.25);
-  --shadow-btn: 0 20px 20px hsl(245 75% 52% / 0.1903);
+  --shadow-btn: 0 12px 12px hsl(245 75% 52% / 0.1903);
 }
 
 @font-face {
