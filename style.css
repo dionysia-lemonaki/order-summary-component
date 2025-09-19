@@ -146,8 +146,10 @@ body {
   color: var(--clr-text-secondary);
 }
 
-.plan .btn--link {
-  margin-inline-start: auto;
+@media (min-width: 25rem) {
+  .plan .btn--link {
+    margin-inline-start: auto;
+  }
 }
 
 @media (min-width: 37.5rem) {
