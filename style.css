@@ -146,6 +146,27 @@ body {
   color: var(--clr-text-secondary);
 }
 
+.btn {
+  cursor: pointer;
+}
+
+.plan .btn--link {
+  color: var(--clr-link-primary);
+  font-weight: var(--fw-bold);
+  border-color: transparent;
+  background-color: inherit;
+}
+
+.plan .btn--link:hover {
+  color: var(--clr-link-hover-primary);
+}
+
+.plan .btn--link:focus-visible {
+  color: var(--clr-link-hover-primary);
+  outline: 2px dotted var(--clr-link-hover-primary);
+  outline-offset: 2px;
+}
+
 @media (min-width: 25rem) {
   .plan .btn--link {
     margin-inline-start: auto;
